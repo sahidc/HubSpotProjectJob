@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.qa.HubSpot.PageTest.HomePageTest">
+        <methods>
+          <include name="clickOnDealsPageTest"/>
+          <include name="isDisplayAccountIDTest"/>
+          <include name="clickOnConversationPageTest"/>
+          <include name="getHomePageTitleTest"/>
+          <include name="clickOnContactPageTest"/>
+          <include name="clickOnclickOnSalesPageTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.HubSpot.PageTest.HomePageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+ 
+<suite name="HubSpotTestSuit" verbose="1" >
+<listeners>
+		<listener class-name="com.qa.HubSport.ExtentReport.ExtentReporterNG" />
+	</listeners>
+  <test name="HubSpotTestJob"   >
+    <classes>
+                     <class name="com.qa.HubSpot.PageTest.ContactPageTest" />
+                  <class name="com.qa.HubSpot.PageTest.ConversationPageTest" />
+                <class name="com.qa.HubSpot.PageTest.DealsPageTest" />
+             <class name="com.qa.HubSpot.PageTest.HomePageTest" /> 
+          <class name="com.qa.HubSpot.PageTest.LoginPageTest" />
+   </classes>
+ </test>
+</suite>
+
